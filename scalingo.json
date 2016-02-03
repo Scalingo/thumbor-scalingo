@@ -1,0 +1,17 @@
+{
+  "name": "Thumbor",
+  "description": "thumbor is an open-source photo thumbnail service by globo.com",
+  "repository": "https://github.com/Scalingo/thumbor-scalingo",
+  "logo": "https://github.com/thumbor/thumbor/wiki/logo-thumbor.png",
+  "website": "http://thumbor.org/",
+  "env": {
+    "SECURITY_KEY": {
+      "description": "This option specifies the security key that thumbor uses to sign secure URLs.",
+      "generator": "secret"
+    },
+    "ALLOW_UNSAFE_URL": {
+      "description": "This option specifies that the /unsafe url should be available in this thumbor instance.",
+      "value": "True"
+    }
+  }
+}
